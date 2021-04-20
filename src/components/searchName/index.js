@@ -1,12 +1,11 @@
 import React from "react"
-import "../searchName/search.css";
 
 function searchName(props) {
 
     return (
         <div className="container-fluid pt-1">
 
-            <header className="col-12 m-3" >
+            <header className="col-12 ml-5 m-3">
                 <div className="row">
                     <h3 className="headerText">Employee Directory</h3>
                 <div className="row ml-5"></div>

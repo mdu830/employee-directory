@@ -1,8 +1,7 @@
 import API from "../../utils/API";
-import React, { Component } from "react"
-import SearchName from "../searchName/index"
-import TableData from "../tableData/index"
-// import "../container/container.css";
+import React, { Component } from "react";
+import SearchName from "../searchName/index";
+import TableData from "../tableData/index";
 
 class Container extends Component {
 
