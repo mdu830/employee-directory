@@ -1,27 +1,17 @@
 import React from "react"
+import "../searchName/search.css";
 
 function searchName(props) {
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid pt-1">
 
-
-            <header className="z-depth-3 col s12" >
+            <header className="col-12 m-3" >
                 <div className="row">
-                    {/* <header className=" > */}
-
-                    <div className="col s6">
-
-
-
-                        <h3 className="right-align headerText">Employee Directory</h3>
-                        {/* <h6 className="center-align smallerHeaderText">Use this box to narrow your search</h6> */}
-
-                    </div>
-                    <div className="col s6 ">
-
-                        <div className="col s6 inputAndButton right-align ">
-
+                    <h3 className="headerText">Employee Directory</h3>
+                <div className="row ml-5"></div>
+                <div className="row mb-3">
+                    <div className=" col m4 input input-group ml-5">
                             <input
                                 onChange={props.handleInputChange}
                                 value={props.value}
@@ -31,26 +21,16 @@ function searchName(props) {
                                 list="employee"
                                 className=" inputBox  "
                                 placeholder="Search by name" />
-
-
-                        </div>
+                            </div>
                         <div className="col m4">
-
-
                             <button
                                 type="submit"
                                 value=""
-                                className=" btn z-depth-2 waves-effect  searchBttn"
-                                onClick={props.handleSearch} >Search</button>
+                                className="btn btn-outline-info searchBtn"
+                                onClick={props.handleSearch} >Search
+                            </button>
                         </div>
-
-
-
-
-
-
                     </div>
-                    {/* </header > */}
                 </div>
             </header>
         </div >

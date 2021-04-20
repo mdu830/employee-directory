@@ -2,6 +2,7 @@ import API from "../../utils/API";
 import React, { Component } from "react"
 import SearchName from "../searchName/index"
 import TableData from "../tableData/index"
+// import "../container/container.css";
 
 class Container extends Component {
 
@@ -84,24 +85,19 @@ class Container extends Component {
         });
     }
 
-
-
     render() {
 
         return (
-            <div>
-
+            <div className="">
                 <SearchName
                     employee={this.state.employees}
                     handleSearch={this.handleSearch}
-                    handleInputChange={this.handleInputChange} />
+                    handleInputChange={this.handleInputChange} 
+                />
                 <TableData results={this.state.filteredEmployees}
-                    sortByName={this.sortByName}
-
+                    sortByName={this.sortByName} 
                 />
             </div >
-
-
         )
     }
 }

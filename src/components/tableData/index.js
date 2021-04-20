@@ -1,10 +1,9 @@
-  
 import React from "react";
 import Moment from 'react-moment';
 
 function TableData(props) {
       return (
-        <table className="tableEmployee ">
+        <table className="tableEmployee col-10">
             <thead>
                 <tr>
                     <th></th>
