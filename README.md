@@ -7,7 +7,7 @@ link to deployed application: https://mdu830.github.io/employee-directory/
 
 ### Description: 
 
-This is a React application that allows managers to sort thought an API of their employees to help them find their information quickly. 
+This is a React application that allows managers to sort though an API of their employees, and help them find their information quickly. 
 
 ### Table of Contents
 * [Usage](#usage)
