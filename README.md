@@ -3,42 +3,35 @@
 
 ![license badge](https://img.shields.io/github/license/mdu830/employee-directory?color=green)
 
+link to deployed application: https://mdu830.github.io/employee-directory/
+
 ### Description: 
 
-<ul>
-    This is a React application that allows managers to sort thought an API of their employees to help them find their information quickly. 
-</ul>
+This is a React application that allows managers to sort thought an API of their employees to help them find their information quickly. 
 
 ### Table of Contents
-* [Installation](#installation)
 * [Usage](#usage)
 * [Testing](#testing)
 * [Contributors](#contributors)
 * [License](#License)
-    
-### Installation:
-<ul>
-    none
-</ul>
 
 ### Usage:
 <ul>
     gif
 </ul>
 
+### Testing:
+
+If you would like to test the application on your local machine: first install node js. Next git clone the employee-directory repo, then cd into the employee-directory folder. Now type npm install. Once the react application has finished installing, type: npm start. 
+Once the application is running your default webrowser will open automatically and connect to the employee directory application!
+
 ### License
-<ul>
-    This application is covered under the GNU GPLv3
-</ul>
+
+This application is covered under the GNU GPLv3
 
 ### Contributors:
 
 [@mdu830](https://api.github.com/users/mdu830)
-
-### Testing:
-<ul>
-    none right now
-</ul>
 
 ### Questions?
 
