@@ -16,9 +16,8 @@ This is a React application that allows managers to sort though an API of their 
 * [License](#License)
 
 ### Usage:
-<ul>
-    gif
-</ul>
+
+![demo](/src/images/example.gif)
 
 ### Testing:
 
